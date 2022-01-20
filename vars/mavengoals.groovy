@@ -11,4 +11,3 @@ def stabiltity(){
 def quality(){
   sh 'mvn checkstyle:checkstyle
 }
-def 
