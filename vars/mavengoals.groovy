@@ -1,4 +1,4 @@
-def clean()
+def call()
 {
   sh 'mvn clean'
 }
