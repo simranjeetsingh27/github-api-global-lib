@@ -1,4 +1,4 @@
-def clone(Map config = [:]) {
+def clone() {
 git branch: 'ninja', url: 'https://github.com/simranjeetsingh27/spring3hibernate.git'
 }
 def clean(){
