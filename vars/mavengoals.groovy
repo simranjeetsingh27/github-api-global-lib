@@ -1,6 +1,5 @@
 def clone(Map config = [:]) {
-git branch: "$(config.branch)", url: "$(config.url)"
-  git clone ${config.url}
+git branch: 'ninja', url: 'https://github.com/simranjeetsingh27/spring3hibernate.git'
 }
 def clean(){
   sh 'mvn clean'
