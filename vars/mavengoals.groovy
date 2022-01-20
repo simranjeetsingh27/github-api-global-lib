@@ -1,4 +1,4 @@
-def clone() {
+def clone(String branch_name,String Url) {
 git branch: 'ninja', url: 'https://github.com/simranjeetsingh27/spring3hibernate.git'
 }
 def clean(){
