@@ -9,5 +9,5 @@ def stabiltity(){
   sh 'mvn pmd:pmd'
 }
 def quality(){
-  sh 'mvn checkstyle:checkstyle
+  sh 'mvn checkstyle:checkstyle'
 }
