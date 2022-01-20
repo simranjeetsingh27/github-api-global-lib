@@ -1,6 +1,6 @@
-def clone(Map config = [:]) (
+def clone(Map config = [:]) {
 git branch: "$(config.branch)", url: "$(config.giturl)"
-)
+}
 def clean(){
   sh 'mvn clean'
 }
