@@ -6,7 +6,7 @@ pipeline{
         stage("clone"){
             steps{
                 script{
-                    mavengoals.clone('ninja','https://github.com/simranjeetsingh27/spring3hibernate.git')
+                    mavengoals.clone('nina','https://github.com/simranjeetsingh27/spring3hibernate.git')
                 }            
             }
         }
