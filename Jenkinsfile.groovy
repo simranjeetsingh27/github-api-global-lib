@@ -35,7 +35,7 @@ pipeline{
             }
               
         }
-               stage("Clean"){
+               stage("Cean"){
             steps{
                 script{
                 mavengoals.clean()
